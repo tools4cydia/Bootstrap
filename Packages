@@ -1,4 +1,4 @@
-Package: netskao.actionbarreborn
+Package: netskao.actionbarreborn2
 Version: 1.1-2
 Architecture: iphoneos-arm64e
 Maintainer: Nets
@@ -12,4 +12,4 @@ Section: Tweaks
 Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
 Author: Netskao
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Name: ActionBar
+Name: ActionBar2
