@@ -3,7 +3,7 @@ Version: 1.1-2
 Architecture: iphoneos-arm64e
 Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/ActionBar.deb
+Filename: debs/ActionBar.deb
 Size: 161008
 MD5sum: 5b20682b1b668af1fcad102dde33aeea
 SHA1: b5faa8f2d27c1995d8cf63323ae8cfff9be29af9
