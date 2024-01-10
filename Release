@@ -1,9 +1,8 @@
-Origin: tools4cydia's Repo
-Label: tools4cydia's Repo
+
+Origin: tools4cydia's Repo 
+Label: tools4cydia's Repo 
 Suite: stable
 Version: 1.0
-Codename: tools4cydia
-Architectures: iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm
 Components: main
-Description: tools4cydia's Repo
-Icon: file://RepoIcon.png
+Description: repo
