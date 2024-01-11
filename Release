@@ -1,6 +1,6 @@
 
-Origin: tools4cydia's Repo 
-Label: tools4cydia's Repo 
+Origin: tools4cydia
+Label: tools4cydia
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
