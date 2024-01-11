@@ -4,7 +4,7 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-        "url": "http://roothide.github.io/about.png",
+        "url": "http://tools4cydia.github.io/Bootstrap/about.png",
         "title": "",
         "package": "",
         "hideShadow": false
