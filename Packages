@@ -16,7 +16,7 @@ Name: ActionBar
 
 Package: me.lau.atria
 Version: 1.4.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Filename: debs/me.lau.atria_1.4.1_iphoneos-arm64e.deb
 Size: 241122
