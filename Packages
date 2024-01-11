@@ -2,7 +2,7 @@ Package: netskao.actionbarreborn
 Version: 1.1-2
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/ActionBar.deb
+Filename: debs/ActionBarr.deb
 Size: 161008
 MD5sum: 5b20682b1b668af1fcad102dde33aeea
 SHA1: b5faa8f2d27c1995d8cf63323ae8cfff9be29af9
@@ -18,7 +18,7 @@ Package: me.lau.atria
 Version: 1.4.1
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Filename: debs/ActionBar.deb
+Filename: debs/me.lau.atria_1.4.1_iphoneos-arm.deb
 Size: 241122
 MD5sum: 2ea1294cba60bdf6e97ffa3dd7e73a33
 SHA1: 7455549d3cb75f50d524c433ff2a3f6c3743799d
