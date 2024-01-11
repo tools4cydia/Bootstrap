@@ -1,15 +1,31 @@
-Package: netskao.actionbarreborn2
+Package: netskao.actionbarreborn
 Version: 1.1-2
 Architecture: iphoneos-arm64e
-Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/ActionBar.deb
 Size: 161008
 MD5sum: 5b20682b1b668af1fcad102dde33aeea
 SHA1: b5faa8f2d27c1995d8cf63323ae8cfff9be29af9
 SHA256: 98a0461194b65bb3012759f05592e6079b11693c6c7c354e9e4b07f014004ac5
-Section: Tweaks
+Section: tool
 Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
 Author: Netskao
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: ActionBar
+
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Filename: debs/ActionBar.deb
+Size: 241122
+MD5sum: 2ea1294cba60bdf6e97ffa3dd7e73a33
+SHA1: 7455549d3cb75f50d524c433ff2a3f6c3743799d
+SHA256: 1f0a58d60dc19c2e7d7d4a731a1943504d206699bce173cb9d27dc2fd8d575a6
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Author: ren7995
 Depiction: tools4cydia
-Name: ActionBar2
+Name: Atria
+
