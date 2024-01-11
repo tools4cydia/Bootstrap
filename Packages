@@ -13,3 +13,17 @@ Author: ren7995
 Depiction: tools4cydia
 Name: Atria
 
+Package: com.p2kdev.waqt
+Version: 1.1
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/com.p2kdev.waqt_1.1_iphoneos-arm64e-1.deb
+Size: 372
+MD5sum: c58e9428c6c2cc912883a5756923ce64
+SHA1: 308a1bded3e265ea4b50fb1ccbf3badd72ab7180
+SHA256: e05dcfc2af9748573ad711239c4a42ca3c95fd907723372a75edd2c5f5dbbf89
+Section: Tweaks
+Description: Know more than just the current time!
+Author: P2KDev
+Depiction: tools4cydia
+Name: Waqt
