@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 cd $(dirname "$0")
 
-dpkg-scanpackages -m debs > Packages
+dpkg-scanpackages -m ./debfiles/ > Packages
 bzip2 -c Packages > Packages.bz2
