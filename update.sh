@@ -1,6 +1,11 @@
-#!/usr/bin/env bash
-cd $(dirname "$0")
-
-dpkg-scanpackages -m debfiles/ > Packages
+dpkg-scanpackages -m ./debs > Packages
 bzip2 -c Packages > Packages.bz2
 gzip -c Packages > Packages.gz
+
+cd beta
+
+dpkg-scanpackages -m ./debs > Packages
+bzip2 -c Packages > Packages.bz2
+gzip -c Packages > Packages.gz
+
+cd ..
