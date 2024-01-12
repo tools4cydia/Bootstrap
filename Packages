@@ -1,6 +1,6 @@
 Package: me.lau.atria
 Version: 1.4.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Filename: ./debfiles/me.lau.atria_1.4.1_iphoneos-arm.deb
 Size: 241122
