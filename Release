@@ -1,9 +1,9 @@
-Origin: Tools4cydia
-Label: Tools4cydia
+Origin: tools4cydia
+Label: tools4cydia
 Suite: stable
 Version: 1.0
 Codename: RootHide
-Architectures: iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm64e
 Components: main
 Description: Tools4cydia
 Icon: file://RepoIcon.png
