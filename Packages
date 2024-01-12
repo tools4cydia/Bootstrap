@@ -42,6 +42,22 @@ Author: tools4cydia
 Depiction: tools4cydia
 Name: Tools4Theos
 
+
+Package: com.spark.snowboard
+Version: 1.5.26
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/com.spark.snowboard_1.5.26-Beta4-rootless_iphoneos-arm64.deb
+Size: 1120268
+MD5sum: 9109ec3d0b2bca55154f15610c8b61ba
+SHA1: 1548df152c15da2d898f19e618fb6af4bdee5d85
+SHA256: 2857efc003bf3c2def3119ea1b45f25b86eb57c8bf6f3b8d12c822e976608a51
+Section: Tweaks
+Description:  Snowboard theming engine you have to download SnowBoardFix
+Author: Spark & Dennis D. Bednarz
+Depiction: tools4cydia
+Name: SnowBoard
+
 Package: com.mtac.snowboardfix
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -84,7 +100,7 @@ MD5sum: f33bb228db1e0ab18083e59793928d80
 SHA1: 02d21ff03c51fa75df6282501597222526953f04
 SHA256: 281f4bacf22ccdf3afa7059d57231fa5b4794c50803a2b23d11c29d6bb018e5c
 Section: Tweaks
-Description: Organize your settings
+Description: Organize your settings you have to download libCSPreferences
 Author:  CreatureSurvive
 Depiction: tools4cydia
 Name: Shuffle
