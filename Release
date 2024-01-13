@@ -2,7 +2,7 @@ Origin: tools4cydia
 Label: tools4cydia
 Suite: stable
 Version: 1.0
-Architectures: iphoneos-arm64e
+Architectures: iphoneos-arm64e iphoneos-arm64
 Components: main
 Description: Tools4cydia
 Icon: file://RepoIcon.png
