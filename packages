@@ -125,7 +125,7 @@ Package: xyz.cypwn.lynxtwo
 Version: 2.4.6
 Architecture: iphoneos-arm64e
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debfiles/xyz.cypwn.lynxtwo_2.4.6_iphoneos-arm64e.deb
+Filename: ./debfiles/xyz.cypwn.lynxtwo_2.4.6_iphoneos-arm64e-1.deb
 Size: 734896
 MD5sum: e256ae70932e1b156cb20020ec7ee24c
 SHA1: 7f37cdc57e60cfd36fc9425a1c7c5f0ae8ff4356
