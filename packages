@@ -123,7 +123,7 @@ Name: libCSPreferences
 
 Package: xyz.cypwn.lynxtwo
 Version: 2.4.6
-Architecture: iphoneos-arm64e iphoneos-arm64
+Architecture: iphoneos-arm64e
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
 Filename: ./debfiles/xyz.cypwn.lynxtwo_2.4.6_iphoneos-arm64e.deb
 Size: 734896
