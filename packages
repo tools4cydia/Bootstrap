@@ -120,3 +120,18 @@ Description: A Preference Library that doesn't suck!
 Author:  CreatureSurvive
 Depiction: tools4cydia
 Name: libCSPreferences
+
+Package: xyz.cypwn.lynxtwo
+Version: 2.4.6
+Architecture: iphoneos-arm64e iphoneos-arm64
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debfiles/xyz.cypwn.lynxtwo_2.4.6_iphoneos-arm64e.deb
+Size: 734896
+MD5sum: e256ae70932e1b156cb20020ec7ee24c
+SHA1: 7f37cdc57e60cfd36fc9425a1c7c5f0ae8ff4356
+SHA256: 57d0dbb3f9f9f9d70b987d246114a1f23387848227a8a85873881ff311b7d26c
+Section: Tweaks
+Description:  Ultimate Device Customization for iOS 14, 15 & 16.
+Author: MTAC
+Depiction: tools4cydia
+Name: Lynx 2
