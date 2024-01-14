@@ -137,3 +137,19 @@ Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author:  John Coates
 Depiction: tools4cydia
 Name: Flex 3 Beta
+
+
+Package: com.ichitaso.hideserialnumber
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: ./debfiles/com.ichitaso.hideserialnumber_0.0.3_iphoneos-arm64e.deb
+Size: 46640
+MD5sum: f4d8ea6feb9c357d10618e6251805ebf
+SHA1: 706ee20d90644174aa8b5d910fd72c974304441f
+SHA256: a7f4ea5509c917b43757c35c12085ca8fcc454e85c484f6e2e663188782f6eee
+Section: Tweaks
+Description: Hide Serial Number in Settings About page. اخفاء رقم التسلسلي
+Author:  ichitaso
+Depiction: tools4cydia
+Name: HideSerialNumber
