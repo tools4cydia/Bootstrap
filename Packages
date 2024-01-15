@@ -1,3 +1,23 @@
+Package: xyz.cypwn.carbridge13
+Version: 2.0.12
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Filename: ./debfiles/xyz.cypwn.carbridge13_2.0.12_iphoneos-arm64e-1.deb
+Size: 611086
+MD5sum: f1c5a1a74f5a5a16b62f8a503c173848
+SHA1: 47ac0dd34ae3bd3b62ffc591feeff9f8da3c82ff
+SHA256: 18ec31f631311e2adf45a564abde9e14e6f919e6ece3757b66310897c30e2389
+Section: Tweaks
+Description: Open any app in CarPlay! CarPlay
+Version: 2.0.12
+Icon: https://repo.cypwn.xyz/packages/CarBridge13/icon.png
+Author: leftyfl1p
+Depiction: tools4cydia
+Name: CarBridge crack
+
+
+
+
 Package: com.ryannair05.cask3
 Version: 1.0.2
 Architecture: iphoneos-arm64e
