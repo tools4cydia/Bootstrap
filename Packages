@@ -1,3 +1,37 @@
+Package: com.niceios.nicehelper-bootstrap
+Version: 1.2-1
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate
+Filename: ./debfiles/com.niceios.nicehelper-bootstrap_1.2-1_iphoneos-arm64e.deb
+Size: 926646
+MD5sum: eefda6859e2cdef2e5e0e3cf04889cb1
+SHA1: 85759eb1370bfbaaf91120dbecaf0cef6c7a1891
+SHA256: da28af03181d417c27db15fe1950ceda8736ec9cfe32908bc698ddafe23a2993
+Section: Tweaks
+Description: مساعد اداة Nicehelper
+Author:  niceios
+Depiction: tools4cydia
+Name: NiceHelper【Bootstrap】
+
+
+Package: com.niceios.nicebarx16-bootstrap
+Version: 1.0.0.1-2
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate,com.niceios.nicehelper-bootstrap(>=1.1),preferenceloader
+Filename: ./debfiles/com.niceios.nicebarx16-bootstrap_1.0.0.1-2_iphoneos-arm64e.deb
+Size: 2486992
+MD5sum: 529ca46dc454ab97c802374d18f49469
+SHA1: 666d6fdbea21ae0f39df6684748d4659a6dab124
+SHA256: d75a356985d15e63e06473529f76de97488d794a84e675a1174c9cf2e61e53e8
+Section: Tweaks
+Description: nice插件依赖组件. يحتاج تحمل معه مساعد NiceHelper
+Author:  niceios
+Depiction: tools4cydia
+Name: NiceBarX(iOS16)-bootstrap
+
+
+
+
 Package: me.lau.atria
 Version: 1.4.1
 Architecture: iphoneos-arm64e
