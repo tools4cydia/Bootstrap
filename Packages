@@ -63,7 +63,7 @@ SHA1: 684e953ff043054bd6711d9205c524d5d5048c24
 SHA256: 730825dc9d3c0bca97ca014af3e560c974ae9879e32d90dfde2c679e192f0018
 Section: Tweaks
 Description: A simple library for choosing images in preference bundles.
-Icon: https://tools4cydia.github.io/Bootstrap/icon/IMG_3332.png
+Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author:  Muirey03
 Depiction: tools4cydia
 Name: libimagepicker
@@ -98,7 +98,7 @@ SHA1: 85759eb1370bfbaaf91120dbecaf0cef6c7a1891
 SHA256: da28af03181d417c27db15fe1950ceda8736ec9cfe32908bc698ddafe23a2993
 Section: Tweaks
 Description: مساعد اداة Nicehelper
-Icon: https://tools4cydia.github.io/Bootstrap/icon/IMG_3332.png
+Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author:  niceios
 Depiction: tools4cydia
 Name: NiceHelper【Bootstrap】
@@ -164,7 +164,7 @@ SHA1: 4dcd1932def78db5d7fb98a45f9f591f9304ffed
 SHA256: 32b16f1ad90fd650111a3b80d68aca36c70427d8c7b9ba37a08fb83ee4f1d909
 Section: Tweaks
 Description: open newterm type Tools4Theos .enter Support arm64e arm64 .
-Icon: https://tools4cydia.github.io/Bootstrap/icon/IMG_3332.png
+Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author: tools4cydia
 Depiction: tools4cydia
 Name: Tools4Theos
@@ -197,7 +197,7 @@ SHA1: bd4a24cb1c02c619e52b7e449c919ee82ee474f3
 SHA256: d52fea8ab07ba3d8fd9c283d0ec757409b1d32bf4e0c871c149224d37efb4f57
 Section: Tweaks
 Description: Fix SnowBoard crashing on iOS 16
-Icon: https://tools4cydia.github.io/Bootstrap/icon/IMG_3332.png
+Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author: MTAC
 Depiction: tools4cydia
 Name: SnowBoardFix
@@ -247,7 +247,7 @@ SHA1: cefacbbd2ad0e7701c0708e919131c401cd50d8a
 SHA256: 1d86c58915f7d3b5943c1bc8b9866c384ab029e843dc3bf3af1b7bad9ee6791d
 Section: Tweaks
 Description: A Preference Library that doesn't suck!
-Icon: https://tools4cydia.github.io/Bootstrap/icon/IMG_3332.png
+Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author:  CreatureSurvive
 Depiction: tools4cydia
 Name: libCSPreferences
