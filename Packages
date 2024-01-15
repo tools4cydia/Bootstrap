@@ -61,6 +61,7 @@ SHA1: 2a94cf28b7e015c0add761db2d4c6e784d1eb78e
 SHA256: 85714c69a09f64bc27a66a9c6cf5fc9c26dbf37880ae8e102a01c875581bc8fe
 Section: Tweaks
 Description: Minimal design without compromise
+Icon: https://img.chariz.cloud/icon/akara/icon@3x.png
 Author:  Tr1Fecta & Kennyroo
 Depiction: tools4cydia
 Name: Akara crack
@@ -78,6 +79,7 @@ SHA1: 85759eb1370bfbaaf91120dbecaf0cef6c7a1891
 SHA256: da28af03181d417c27db15fe1950ceda8736ec9cfe32908bc698ddafe23a2993
 Section: Tweaks
 Description: مساعد اداة Nicehelper
+Icon: https://github.com/tools4cydia/Bootstrap/blob/main/icon/IMG_3332.png
 Author:  niceios
 Depiction: tools4cydia
 Name: NiceHelper【Bootstrap】
@@ -112,6 +114,7 @@ SHA1: 7455549d3cb75f50d524c433ff2a3f6c3743799d
 SHA256: 1f0a58d60dc19c2e7d7d4a731a1943504d206699bce173cb9d27dc2fd8d575a6
 Section: Tweaks
 Description: A proper homescreen layout editor for iOS 13-16
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Author: ren7995
 Depiction: tools4cydia
 Name: Atria
@@ -157,6 +160,7 @@ SHA1: 1548df152c15da2d898f19e618fb6af4bdee5d85
 SHA256: 2857efc003bf3c2def3119ea1b45f25b86eb57c8bf6f3b8d12c822e976608a51
 Section: Tweaks
 Description:  Snowboard theming engine you have to download SnowBoardFix
+Icon: https://media.idownloadblog.com/wp-content/uploads/2018/10/Snowboard-Icon.jpg
 Author: Spark & Dennis D. Bednarz
 Depiction: tools4cydia
 Name: SnowBoard
@@ -172,6 +176,7 @@ SHA1: bd4a24cb1c02c619e52b7e449c919ee82ee474f3
 SHA256: d52fea8ab07ba3d8fd9c283d0ec757409b1d32bf4e0c871c149224d37efb4f57
 Section: Tweaks
 Description: Fix SnowBoard crashing on iOS 16
+Icon: https://github.com/tools4cydia/Bootstrap/blob/main/icon/IMG_3332.png
 Author: MTAC
 Depiction: tools4cydia
 Name: SnowBoardFix
@@ -188,6 +193,7 @@ SHA1: bd4a24cb1c02c619e52b7e449c919ee82ee474f3
 SHA256: d52fea8ab07ba3d8fd9c283d0ec757409b1d32bf4e0c871c149224d37efb4f57
 Section: Tweaks
 Description: Change your font!
+Icon: https://i.repo.co.kr/images/com.rpgfarm.a-font-icon-afont.png.png
 Author:  Baw Appie
 Depiction: tools4cydia
 Name: A-Font
@@ -237,6 +243,7 @@ SHA1: 9d88ec0dba5361e5957bc8a18e452c1d705ccd89
 SHA256: ac17a10152366180918aa6dfc122f5b4dab7bd73f6bb5d690a60611aecfc0d5c
 Section: Tweaks
 Description: Develop your own tweaks and share them on the Flex Community Cloud
+Icon: https://sketchub.in/storage/project_files/12892/1948018.png
 Author:  John Coates
 Depiction: tools4cydia
 Name: Flex 3 Beta
