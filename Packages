@@ -1,3 +1,21 @@
+
+Package: xyz.cypwn.akara
+Version: 2.0.0k
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>=15.0)
+Filename: ./debfiles/xyz.cypwn.akara_2.0.0k_iphoneos-arm64e.deb
+Size: 662922
+MD5sum: e022f60c03eee1de100b4f740d3b2d7c
+SHA1: 2a94cf28b7e015c0add761db2d4c6e784d1eb78e
+SHA256: 85714c69a09f64bc27a66a9c6cf5fc9c26dbf37880ae8e102a01c875581bc8fe
+Section: Tweaks
+Description: Minimal design without compromise
+Author:  Tr1Fecta & Kennyroo
+Depiction: tools4cydia
+Name: Akara crack
+
+
+
 Package: com.niceios.nicehelper-bootstrap
 Version: 1.2-1
 Architecture: iphoneos-arm64e
