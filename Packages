@@ -84,14 +84,14 @@ Name: NiceHelper【Bootstrap】
 
 
 Package: com.niceios.nicebarx16-bootstrap
-Version: 1.0.0.1-2
+Version: 1.0.0.1-14
 Architecture: iphoneos-arm64e
-Depends: mobilesubstrate,com.niceios.nicehelper-bootstrap(>=1.1),preferenceloader
-Filename: ./debfiles/com.niceios.nicebarx16-bootstrap_1.0.0.1-2_iphoneos-arm64e.deb
-Size: 2486992
-MD5sum: 529ca46dc454ab97c802374d18f49469
-SHA1: 666d6fdbea21ae0f39df6684748d4659a6dab124
-SHA256: d75a356985d15e63e06473529f76de97488d794a84e675a1174c9cf2e61e53e8
+Depends: mobilesubstrate,com.niceios.nicehelper-bootstrap(>=1.2),preferenceloader
+Filename: ./debfiles/com.niceios.nicebarx16-bootstrap_1.0.0.1-14_iphoneos-arm64e.deb
+Size: 2488234
+MD5sum: abdbbbe326f60a2a4c3c15308117e6f3
+SHA1: 9dd3da5b4e537f0018d936fc5e701ffd3199d9b9
+SHA256: 95f0528141fd6a8d90f8af1230e14309c760150a4b7ed3c77814ec54256859d3
 Section: Tweaks
 Description: nice插件依赖组件. يحتاج تحمل معه مساعد NiceHelper
 Author:  niceios
