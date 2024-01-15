@@ -239,13 +239,13 @@ Name: Shuffle
 
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
-Architecture: iphoneos-arm64
-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Filename: ./debfiles/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64.deb
-Size: 333134
-MD5sum: bbb549941f13b83b158f0809e953214a
-SHA1: cefacbbd2ad0e7701c0708e919131c401cd50d8a
-SHA256: 1d86c58915f7d3b5943c1bc8b9866c384ab029e843dc3bf3af1b7bad9ee6791d
+Architecture: iphoneos-arm64e
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debfiles/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64e-1.deb
+Size: 518696
+MD5sum: 2f2cde1099226d17f3d608893d0edafa
+SHA1: a07720e9300b111eca14d3a8228439fa46e7f40d
+SHA256: 8e63fb63409e73b8965dc50b50f1e38953b2162c7b268143f15e4a55473f0612
 Section: Tweaks
 Description: A Preference Library that doesn't suck!
 Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
