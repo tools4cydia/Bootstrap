@@ -8,7 +8,7 @@ MD5sum: c266a917e21b0ba6a97ec3644b4f7b42
 SHA1: 609e6c5a9135772e56b1b8162066fd61f09cff44
 SHA256: abcf4aa3f5cfc6dbd37e775bdee7a2c00ec801d9b295b09e5380d0de362955ac
 Section: Tweaks
-Description: Spoof GPS location اداة تغير موقعك لازم تفعل زر من اداة وحتى من bootstrap وبعدها تشغيل سريع 
+Description: Spoof GPS location اداة تغير موقعك لازم تفعل زر من اداة وحتى من بوت ستراب وبعدها تشغيل سريع 
 Author: SGWC
 Depiction: tools4cydia
 Name: Teleport maps
