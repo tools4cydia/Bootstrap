@@ -1,3 +1,20 @@
+Package: com.ryannair05.cask3
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debfiles/com.ryannair05.cask3_1.0.2_iphoneos-arm64e.deb
+Size: 340680
+MD5sum: 204034a4085c390eea9188f2ed76fd5e
+SHA1: 3db2a9c5bb83c5f4e43b1a73d4cddd84af6a7748
+SHA256: 58d2310a7ddd9600ae6aae999d07d1bc43ce16fab488a87550603781e583ab72
+Section: Tweaks
+Description: Animated table scrolling
+Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
+Author: Ryan Nair
+Depiction: tools4cydia
+Name: Cask 3
+
+
 Package: xyz.cypwn.teleport
 Version: 1.1
 Architecture: iphoneos-arm64e
