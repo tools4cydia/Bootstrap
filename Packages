@@ -1,3 +1,21 @@
+Package: com.ryannair05.cylinderremade
+Version: 0.0.2-beta
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: ./debfiles/com.ryannair05.cylinderremade_0.0.2-beta_iphoneos-arm64e-1.deb
+Size: 119640
+MD5sum: cf9006787a69c8bcd0f0affcb93559d7
+SHA1: 624a2dc9c8ffd1a790ccba5ca118b6fe09062414
+SHA256: b2fd43a6f10400ec2643ac50aedf90b2300c5fd9601ecef08b3dad71f91b06e6
+Section: Tweaks
+Description: Make your icons dance
+Icon: https://repo.cypwn.xyz/packages/CylinderReborn/icon.png
+Author: Ryan Nair
+Depiction: tools4cydia
+Name: Cylinder Remade
+
+
+
 Package: xyz.cypwn.lynxtwo
 Version: 2.4.6
 Architecture: iphoneos-arm64e
