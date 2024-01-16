@@ -223,13 +223,13 @@ Name: A-Font
 Package: com.creaturecoding.shuffle
 Version: 1.6.2
 Architecture: iphoneos-arm64e
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
 Depends: mobilesubstrate,com.creaturecoding.libcspreferences
-Filename: ./debfiles/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64e-2.deb
-Size: 310376
-MD5sum: ddfea15b9816f87d2e05b8b9f175fa61
-SHA1: a24560500d393f0d61408e957da4f48a01ed8d74
-SHA256: 78549993f84e36dc1fb50b1bd0a316ba905146723fa262e1cbf441927da5d191
+Filename: ./debfiles/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64e-6.deb
+Size: 319702
+MD5sum: 54a606338fe25e042938fef6c11cc158
+SHA1: e0c9aac0737278b92a098dd396a8aeb6bd4c17c0
+SHA256: 55c2928c44f4bf0b18adbb7208af93936567266b719dc16abf7c0e11750c2d4f
 Section: Tweaks
 Description: Organize your settings you have to download libCSPreferences
 Author:  CreatureSurvive
