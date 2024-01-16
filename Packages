@@ -32,26 +32,6 @@ Depiction: tools4cydia
 Name: Designer
 
 
-
-
-Package: com.check0ver.KuroIcon
-Version: 2.3
-Architecture: iphoneos-arm64e
-Depends: mobilesubstrate,com.spark.snowboard
-Filename: ./debfiles/com.check0ver.KuroIcon_2.3_all.deb
-Size: 48884724
-MD5sum: 5e71260a871778dd93cf30e00ff749ae
-SHA1: 06ce010d9ce6b8f92542584a036caa4a1850290c
-SHA256: 9042acd762a3285b85e353420db16d832fe20b0d2312a6aa8f152b1c0441d850
-Section: Themes
-Description: ثيم يحتوي على 1630 ايقونة لازم يكون عندك مثبت اداة SnowBoard وتفعله من اعدادات 
-Icon: https://repo.cypwn.xyz/packages/Blow-Rootless/icon.png
-Author: SynchronizerD
-Depiction: tools4cydia
-Name: Kuro-Icon
-
-
-
 Package: xyz.cypwn.carbridge13
 Version: 2.0.12
 Architecture: iphoneos-arm64e
