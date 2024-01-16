@@ -1,3 +1,40 @@
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.6.4
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: ./debfiles/com.mrgcgamer.libgcuniversal_1.6.4_iphoneos-arm64e-1.deb
+Size: 58244
+MD5sum: c62418a861c642373f736f9a3ae1f7b5
+SHA1: 77bbcd331e9ba23bb7bdbe38ea46dd60768d45df
+SHA256: c2cd15e3d082da2c321aabf6ecd46b6069eca61fb9835fe1eb07bdc09d2323f9
+Section: Tweaks
+Description: An awesome library of some sort!!
+Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
+Author: MrGcGamer
+Depiction: tools4cydia
+Name: LibGcUniversal
+
+
+
+Package: dev.traurige.eneko
+Version: 1.4
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debfiles/traurige.eneko_1.4_iphoneos-arm64e.deb
+Size: 35026
+MD5sum: f1f3677df8c520871db536f72d7c636e
+SHA1: 6a01824274cd2d4a59e6a0dafe71ef967bf668e9
+SHA256: 103f295f942333a25087e1efa2dfe6ab91f901f02cfd70bbd368d20dd004ed10
+Section: Tweaks
+Description: Live wallpapers for iOS عمل خلفية متحركة شاشة قفل لايف موقع تحميل موجود داخل اداة 
+Author: Traurige
+Depiction: tools4cydia
+Name: Eneko
+
+
+
+
+
 Package: com.ryannair05.cylinderremade
 Version: 0.0.2-beta
 Architecture: iphoneos-arm64e
