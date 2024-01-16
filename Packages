@@ -258,14 +258,14 @@ Name: SnowBoardFix
 
 
 Package: com.rpgfarm.a-font
-Version: 1.10
+Version: 1.9.3
 Architecture: iphoneos-arm64e
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles/com.rpgfarm.a-font_1.10_iphoneos-arm64e-6.deb
-Size: 1330842
-MD5sum: 51b57a0912c8aa1432e1cde448489812
-SHA1: 643233606087495687c11c26fdbbb3d72c97412f
-SHA256: fd27275523fcc00718bc31da3f521d015fa3695d11cb0592ccfd5e4f9b6e70b0
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: ./debfiles/com.rpgfarm.a-font_1.9.3_iphoneos-arm64e.deb
+Size: 1343792
+MD5sum: 4aba283eaf916929d0cfdbe1ba17890a
+SHA1: af58eea19da23621deaf30855ba84a791d1d680a
+SHA256: 967f72b48a98870bb60ad3ac4913f46a1ec8e740c828c85a47bb9ed507b7d2dc
 Section: Tweaks
 Description: Change your font!
 Icon: https://i.repo.co.kr/images/com.rpgfarm.a-font-icon-afont.png.png
