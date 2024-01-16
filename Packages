@@ -141,13 +141,13 @@ Name: Atria
 
 Package: com.p2kdev.waqt
 Version: 1.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles/com.p2kdev.waqt_1.1_iphoneos-arm.deb
-Size: 29934
-MD5sum: c58e9428c6c2cc912883a5756923ce64
-SHA1: 308a1bded3e265ea4b50fb1ccbf3badd72ab7180
-SHA256: e05dcfc2af9748573ad711239c4a42ca3c95fd907723372a75edd2c5f5dbbf89
+Filename: ./debfiles/com.p2kdev.waqt_1.1_iphoneos-arm64e-3.deb
+Size: 34240
+MD5sum: 2270c297a9f0024296475b8fd790bfa3
+SHA1: a7216633d293fb1aba0615932e986664b289f05c
+SHA256: 532daf0e263f225808abea6a5b410d66d1240134c2adf510ea84e9a974bd4b5f
 Section: Tweaks
 Description: Know more than just the current time!
 Author: P2KDev
