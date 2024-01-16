@@ -155,14 +155,14 @@ Depiction: tools4cydia
 Name: Waqt
 
 Package: com.Tools4cydia.t4theos
-Version: 3.2
-Architecture: iphoneos-arm64
-Filename: ./debfiles/com.Tools4cydia.t4theos_3.2_iphoneos-arm.deb
-Size: 1096
-MD5sum: c33b020196f3d4b4fa3e87d9587c5de4
-SHA1: 4dcd1932def78db5d7fb98a45f9f591f9304ffed
-SHA256: 32b16f1ad90fd650111a3b80d68aca36c70427d8c7b9ba37a08fb83ee4f1d909
-Section: Tweaks
+Version: 3.3
+Architecture: iphoneos-arm64e
+Filename: ./debfiles/com.tools4cydia.t4theos_3.2_iphoneos-arm64e-2.deb
+Size: 912
+MD5sum: 50aad6b729a8aa87342e3730bc716f5a
+SHA1: 5a6d5ab9b9939619935b891d1aa7e413259bf0ce
+SHA256: ca5164396d097ea5fa441cf64c2577f4d4c3e44c3492ed524f8096095c2679e1
+Section: System
 Description: open newterm type Tools4Theos .enter Support arm64e arm64 .
 Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author: tools4cydia
@@ -171,14 +171,14 @@ Name: Tools4Theos
 
 
 Package: com.spark.snowboard
-Version: 1.5.26
-Architecture: iphoneos-arm64
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles/com.spark.snowboard_1.5.26-Beta4-rootless_iphoneos-arm64.deb
-Size: 1120268
-MD5sum: 9109ec3d0b2bca55154f15610c8b61ba
-SHA1: 1548df152c15da2d898f19e618fb6af4bdee5d85
-SHA256: 2857efc003bf3c2def3119ea1b45f25b86eb57c8bf6f3b8d12c822e976608a51
+Version: 1.5.26-Beta4
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate,com.mtac.snowboardfix,preferenceloader
+Filename: ./debfiles/com.spark.snowboard_1.5.26_iphoneos-arm64e.deb
+Size: 2558168
+MD5sum: b12c7eeb3e269077772b9750cac4b813
+SHA1: fe2a5e207c76b2184e1bb3bed9cd3b7159afc5c2
+SHA256: 07903b51da02338abd9ad471152b3899dd142372b7b50ebc46d75ca52faf64cb
 Section: Tweaks
 Description:  Snowboard theming engine you have to download SnowBoardFix
 Icon: https://media.idownloadblog.com/wp-content/uploads/2018/10/Snowboard-Icon.jpg
@@ -188,13 +188,13 @@ Name: SnowBoard
 
 Package: com.mtac.snowboardfix
 Version: 1.0.0
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debfiles/com.mtac.snowboardfix_1.0.0_iphoneos-arm64.deb
-Size: 3442
-MD5sum: 2d95587d2d2e728d53380f45a24940c0
-SHA1: bd4a24cb1c02c619e52b7e449c919ee82ee474f3
-SHA256: d52fea8ab07ba3d8fd9c283d0ec757409b1d32bf4e0c871c149224d37efb4f57
+Filename: ./debfiles/com.mtac.snowboardfix_1.0.0_iphoneos-arm64e-2.deb
+Size: 5130
+MD5sum: b9334d9187557cdf02eb6be5d0409c05
+SHA1: a983ac65f05d7d82f16072148a7ee7a589f253d7
+SHA256: 91e94443b3fdc8f20991dddcd2afc0a303db5276bd9ae9d71d537f10c0071654
 Section: Tweaks
 Description: Fix SnowBoard crashing on iOS 16
 Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
@@ -205,13 +205,13 @@ Name: SnowBoardFix
 
 Package: com.rpgfarm.a-font
 Version: 1.10
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles/com.rpgfarm.a-font_1.10_iphoneos-arm64.deb
-Size: 494382
-MD5sum: 2d95587d2d2e728d53380f45a24940c0
-SHA1: bd4a24cb1c02c619e52b7e449c919ee82ee474f3
-SHA256: d52fea8ab07ba3d8fd9c283d0ec757409b1d32bf4e0c871c149224d37efb4f57
+Filename: ./debfiles/com.rpgfarm.a-font_1.10_iphoneos-arm64e-6.deb
+Size: 1330842
+MD5sum: 51b57a0912c8aa1432e1cde448489812
+SHA1: 643233606087495687c11c26fdbbb3d72c97412f
+SHA256: fd27275523fcc00718bc31da3f521d015fa3695d11cb0592ccfd5e4f9b6e70b0
 Section: Tweaks
 Description: Change your font!
 Icon: https://i.repo.co.kr/images/com.rpgfarm.a-font-icon-afont.png.png
