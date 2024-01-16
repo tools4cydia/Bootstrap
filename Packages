@@ -1,3 +1,57 @@
+Package: xyz.cypwn.lynxtwo
+Version: 2.4.6
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debfiles/xyz.cypwn.lynxtwo_2.4.6_iphoneos-arm64e.deb
+Size: 949276
+MD5sum: 7ea32589c89836cbb7cf4127d041e0ad
+SHA1: 1fb533e7ea6a6f0381a3fdd1050f035935c56e76
+SHA256: f4e8a2419b61d0672d8d17f3f9c01dadd5c91df077285b44cbdcc73aa7255f61
+Section: Tweaks
+Description: Ultimate Device Customization for iOS 14, 15 & 16
+Icon: https://repo.cypwn.xyz/packages/Lynx2/icon.png
+Author: MTAC
+Depiction: tools4cydia
+Name: Lynx 2
+
+
+
+Package: xyz.cypwn.designer
+Version: 1.3
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/xyz.cypwn.designer_1.3_iphoneos-arm64e-1.deb
+Size: 24528104
+MD5sum: 8fdeba3a13cc9e0723945f08fcf2f327
+SHA1: 0a3c40f83592f18f322ba58eeb9efb603ffd652b
+SHA256: a73332cdc898ff63e7468fbded0f71b99f69e11c1528dc30f8f3ee4918a82485
+Section: Tweaks
+Description: Design layouts for lockscreen and homescreen
+Author: Designer
+Depiction: tools4cydia
+Name: Designer
+
+
+
+
+Package: com.check0ver.KuroIcon
+Version: 2.3
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate,com.spark.snowboard
+Filename: ./debfiles/com.check0ver.KuroIcon_2.3_all.deb
+Size: 48884724
+MD5sum: 5e71260a871778dd93cf30e00ff749ae
+SHA1: 06ce010d9ce6b8f92542584a036caa4a1850290c
+SHA256: 9042acd762a3285b85e353420db16d832fe20b0d2312a6aa8f152b1c0441d850
+Section: Themes
+Description: ثيم يحتوي على 1630 ايقونة لازم يكون عندك مثبت اداة SnowBoard وتفعله من اعدادات 
+Icon: https://repo.cypwn.xyz/packages/Blow-Rootless/icon.png
+Author: SynchronizerD
+Depiction: tools4cydia
+Name: Kuro-Icon
+
+
+
 Package: xyz.cypwn.carbridge13
 Version: 2.0.12
 Architecture: iphoneos-arm64e
@@ -13,7 +67,7 @@ Version: 2.0.12
 Icon: https://repo.cypwn.xyz/packages/CarBridge13/icon.png
 Author: leftyfl1p
 Depiction: tools4cydia
-Name: CarBridge crack
+Name: CarBridge
 
 
 
@@ -83,7 +137,7 @@ Description: Minimal design without compromise
 Icon: https://img.chariz.cloud/icon/akara/icon@3x.png
 Author:  Tr1Fecta & Kennyroo
 Depiction: tools4cydia
-Name: Akara crack
+Name: Akara
 
 
 
