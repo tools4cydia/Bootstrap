@@ -224,7 +224,7 @@ Package: com.creaturecoding.shuffle
 Version: 1.6.2
 Architecture: iphoneos-arm64e
 Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
-Depends: com.creaturecoding.libcspreferences
+Depends: mobilesubstrate,com.creaturecoding.libcspreferences
 Filename: ./debfiles/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64e-2.deb
 Size: 310376
 MD5sum: ddfea15b9816f87d2e05b8b9f175fa61
@@ -241,6 +241,7 @@ Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
 Architecture: iphoneos-arm64e
 Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: mobilesubstrate
 Filename: ./debfiles/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64e-1.deb
 Size: 518696
 MD5sum: 2f2cde1099226d17f3d608893d0edafa
