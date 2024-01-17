@@ -1,3 +1,21 @@
+Package: com.nahtedetihw.floatingdockxvi
+Version: 1.8
+Architecture: iphoneos-arm64e
+Depends: preferenceloader
+Filename: ./debfiles/com.nahtedetihw.floatingdockxvi_1.8_iphoneos-arm64e-2.deb
+Size: 408206
+MD5sum: 68e4fafdef14d3896ad1f154dd9771a7
+SHA1: 4a33227fc896c198c497f78966fdcb5ba4cdd2ea
+SHA256: 8a1e9ec7207ed9db56cd882dd802b32fddb97f93a065e43238e82fb37fcedc94
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Icon: https://media.havoc.app/639a2e2b2814b7530636367d?w=1200&q=75
+Author: Ethan Whited
+Depiction: tools4cydia
+Name: FloatingDockXVI
+
+
+
 Package: com.dlgmemor.naboudaj
 Version: 1.0
 Architecture: iphoneos-arm64e
