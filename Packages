@@ -1,3 +1,21 @@
+Package: com.julioverne.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles/com.julioverne.goodwifi_0.0~beta6_iphoneos-arm64e-3.deb
+Size: 97646
+MD5sum: 3f8cb2d19c82b61dfc67afb4ab9249bf
+SHA1: 906f974eb61d859ed44e06588b9b645cc92fade9
+SHA256: 9e7608cd7720792236147aea8a519197648e11735d937e9ee484b9220a81ffbc
+Section: Tweaks
+Description: Better WiFi Preferences اظهار قوة اشارة واي فاي 
+Homepage: https://twitter.com/Tools4cydia
+Author: Julio
+Depiction: tools4cydia
+Name: GoodWiFi
+
+
+
 Package: com.nahtedetihw.floatingdockxvi
 Version: 1.8
 Architecture: iphoneos-arm64e
