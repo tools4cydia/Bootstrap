@@ -1,3 +1,19 @@
+Package: com.dlgmemor.naboudaj
+Version: 1.0
+Architecture: iphoneos-arm64e
+Filename: ./debfiles/com.dlgmemor.naboudaj_1.0_iphoneos-arm64e.deb
+Size: 255642
+MD5sum: a62bed6b71b96a474590cee707d4f219
+SHA1: 5247dac14f1ecae781b0a7c09106625b6795efd2
+SHA256: 1560cb703cefbcde035e5992cb3d56cab0222e27f0f9004bd832377d1b079f41
+Section: Hack
+Description: Run DLGMemor on Bootstrap اظهار مود  اضغط ثلاث مرات على شاشه لازم تفعل زر من بوت ستراب 
+Author: DLGMemor
+Depiction: tools4cydia
+Name: DLGMemor
+
+
+
 Package: com.mrgcgamer.libgcuniversal
 Version: 1.6.4
 Architecture: iphoneos-arm64e
