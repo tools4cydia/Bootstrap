@@ -1,3 +1,21 @@
+Package: com.tools4cydia.tools4terminal
+Version: 1.0-1-15+debug
+Architecture: iphoneos-arm64e
+Depends: bash, zsh, curl, jq, wget
+Filename: ./debfiles/com.tools4cydia.tools4terminal_1.0-1-15+debug_iphoneos-arm64e.deb
+Size: 9280
+MD5sum: 349f233a1de71099f7048d638e9bcbb5
+SHA1: 991ff8d30f4ff95ab2d709ee46df9e8ac437e5a6
+SHA256: fcc3de875f1eda5b2ea4abd5f6ab6898e7ba1d62cf8730b99298aac68da10a09
+Section: System
+Description: Short commands : (re)Respring   (mc)mobile clean ModuleCache (c)make clean (m)make package (ipa) TrollStore ipa (deb) install deb
+Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
+Author: Tools4cydia
+Depiction: tools4cydia
+Name: t4c enter (Roothide)
+
+
+
 Package: com.julioverne.goodwifi
 Version: 0.0~beta6
 Architecture: iphoneos-arm64e
