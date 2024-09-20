@@ -36,7 +36,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Version 2.7.0 fixes issues with Dopamine, and introduces iOS 16 support! iOS 16 has been tested on a simulator, please report any issues!  \n\n.  \n\n**Testimonials:**  \n\n.  \n\nThis",
+          "markdown": "أداة حاليا تحت التطوير ما يفتح كل ميزات داخل تطبيقات كل اصدار اضيف فيه اكواد اكثر حتى يكتمل على اغلب تطبيقات والعاب !  \n\n.  \n\n**Testimonials:**  \n\n.  \n\nThis",
           "useSpacing": true
         },
         {
@@ -49,7 +49,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "2.7.0"
+          "text": "2.1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -59,29 +59,36 @@
         {
           "class": "DepictionTableTextView",
           "title": "Updated",
-          "text": "May 22, 2023"
+          "text": "May 22, 2024"
         },
         {
           "class": "DepictionTableTextView",
           "title": "iOS Versions",
-          "text": "12.0 - 16.6.1"
+          "text": "15.0 - 16.6.1"
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Seller"
+          "title": "ABOUT ME"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionButtonView",
-          "action": "https://twitter.com/your_twitter_handle",
+          "action": "https://twitter.com/tools4cydia",
           "title": "Follow on Twitter",
           "openExternal": true
         },
         {
           "class": "DepictionButtonView",
-          "action": "https://yourwebsite.com",
+          "action": "https://tools4cydia.co/",
+          "title": "Visit Website",
+          "openExternal": true
+
+          },
+        {
+          "class": "DepictionButtonView",
+          "action": "https://www.paypal.me/Tools4ipa",
           "title": "Visit Website",
           "openExternal": true
         }
