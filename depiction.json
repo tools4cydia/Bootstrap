@@ -94,14 +94,16 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "Twitter",
-          "text": "@your_twitter_handle"
+          "class": "DepictionButtonView",
+          "action": "https://twitter.com/your_twitter_handle",
+          "title": "Follow on Twitter",
+          "openExternal": true
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "Website",
-          "text": "https://yourwebsite.com"
+          "class": "DepictionButtonView",
+          "action": "https://yourwebsite.com",
+          "title": "Visit Website",
+          "openExternal": true
         }
       ]
     }
