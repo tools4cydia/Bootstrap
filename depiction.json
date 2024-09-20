@@ -1,0 +1,109 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://media.havoc.app/620546ef6143dbe06474183b",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Pin screenshots anywhere",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://media.havoc.app/620537d67c5e627af05611ba"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://media.havoc.app/620537d67c5e627af05611bc"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://media.havoc.app/620537d77c5e627af05611be"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://media.havoc.app/620537d77c5e627af05611c0"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://media.havoc.app/620537d87c5e627af05611c2"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://media.havoc.app/620537d97c5e627af05611c4"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://media.havoc.app/620537da7c5e627af05611c6"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Version 2.7.0 fixes issues with Dopamine, and introduces iOS 16 support! iOS 16 has been tested on a simulator, please report any issues!  \n\n.  \n\n**Testimonials:**  \n\n.  \n\nThis",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "2.7.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Size",
+          "text": "572.53 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Updated",
+          "text": "May 22, 2023"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Versions",
+          "text": "12.0 - 16.6.1"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Seller"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Twitter",
+          "text": "@your_twitter_handle"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Website",
+          "text": "https://yourwebsite.com"
+        }
+      ]
+    }
+  ]
+}
