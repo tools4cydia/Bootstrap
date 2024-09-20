@@ -1,3 +1,21 @@
+Package: com.tools4cydiax
+Version: 2.1.1-1+debug
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, ws.hbang.common, oldabi
+Filename: ./debfiles/com.tools4cydiax_2.1.1-1+debug_iphoneos-arm64e.deb
+Size: 1096916
+MD5sum: 4bf189c0b6f0a4508dd8e967a1feb641
+SHA1: 344ba3361b693d3155f8fbb0a09964896905fa98
+SHA256: 6869ad71175ddd9efe09f83e5d4b2354c89cf6d227b6c2abc76ac21ed935187b
+Section: Hack
+Description: Description: أداة حاليا تحت التطوير ما يفتح كل ميزات داخل تطبيقات كل اصدار اضيف فيه اكواد اكثر حتى يكتمل على اغلب تطبيقات والعاب !
+Author: Tools4cydia
+Depiction: tools4cydia
+Name: Tools4cydia
+
+
+
+
 Package: com.tools4cydia.tools4terminal
 Version: 2.0-1-2+debug
 Architecture: iphoneos-arm64e
