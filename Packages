@@ -1,5 +1,4 @@
 Package: com.tools4cydiax
-Version: 2.1.1-1+debug
 Architecture: iphoneos-arm64e
 Depends: mobilesubstrate, ws.hbang.common, oldabi
 Filename: ./debfiles/com.tools4cydiax_2.1.1-1+debug_iphoneos-arm64e.deb
