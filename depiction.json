@@ -1,7 +1,7 @@
 {
   "class": "DepictionTabView",
   "minVersion": "0.4",
-  "headerImage": "https://media.havoc.app/620546ef6143dbe06474183b",
+  "headerImage": "https://tools4cydia.github.io/Bootstrap/images/images/Xdx.JPG",
   "tabs": [
     {
       "class": "DepictionStackView",
