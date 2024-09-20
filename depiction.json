@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "Pin screenshots anywhere",
+          "title": "Pin screenshots",
           "useBoldText": true
         },
         {
