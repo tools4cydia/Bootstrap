@@ -10,6 +10,7 @@ SHA256: 6869ad71175ddd9efe09f83e5d4b2354c89cf6d227b6c2abc76ac21ed935187b
 Section: Hack
 Description: أداة حاليا تحت التطوير ما يفتح كل ميزات داخل تطبيقات كل اصدار اضيف فيه اكواد اكثر حتى يكتمل على اغلب تطبيقات والعاب !
 Author: Tools4cydia
+SileoDepiction: https://tools4cydia.github.io/Bootstrap/depiction.json
 Depiction: tools4cydia
 Name: Tools4cydia
 
