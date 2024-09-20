@@ -1,4 +1,4 @@
-Package: com.tools4cydiax
+Package: com.tools4cydiaxs
 Version: 2.1.1-1+debug
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, ws.hbang.common
