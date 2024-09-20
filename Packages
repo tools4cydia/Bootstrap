@@ -1,6 +1,6 @@
 Package: com.tools4cydiaxs
 Version: 2.1.1-1+debug
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Depends: mobilesubstrate, ws.hbang.common
 Filename: ./debfiles/com.tools4cydiax_2.1.1_iphoneos-arm64.deb
 Size: 1096916
