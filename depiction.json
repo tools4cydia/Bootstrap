@@ -77,20 +77,22 @@
           "class": "DepictionButtonView",
           "action": "https://twitter.com/tools4cydia",
           "title": "Follow on Twitter",
-          "openExternal": true
+          "openExternal": true,
+          "icon": "https://tools4cydia.github.io/Bootstrap/images/twitter_icon.png"
         },
         {
           "class": "DepictionButtonView",
           "action": "https://tools4cydia.co/",
-          "title": "Visit Website",
-          "openExternal": true
-
-          },
+          "title": "Website",
+          "openExternal": true,
+          "icon": "https://tools4cydia.github.io/Bootstrap/images/web_icon.png"
+        },
         {
           "class": "DepictionButtonView",
           "action": "https://www.paypal.me/Tools4ipa",
-          "title": "Visit Website",
-          "openExternal": true
+          "title": "Donate via PayPal",
+          "openExternal": true,
+          "icon": "https://tools4cydia.github.io/Bootstrap/images/paypal_icon.png"
         }
       ]
     }
