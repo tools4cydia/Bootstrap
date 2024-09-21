@@ -74,22 +74,9 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionButtonView",
-          "action": "https://twitter.com/tools4cydia",
-          "title": "🐦 Follow on Twitter",
-          "openExternal": true
-        },
-        {
-          "class": "DepictionButtonView",
-          "action": "https://tools4cydia.co/",
-          "title": "🌐 Visit Website",
-          "openExternal": true
-        },
-        {
-          "class": "DepictionButtonView",
-          "action": "https://www.paypal.me/Tools4ipa",
-          "title": "💰 Donate via PayPal",
-          "openExternal": true
+          "class": "DepictionMarkdownView",
+          "markdown": "[Follow on Twitter](https://twitter.com/tools4cydia)\n\n[Visit Website](https://tools4cydia.co/)\n\n[Donate via PayPal](https://www.paypal.me/Tools4ipa)",
+          "useSpacing": true
         }
       ]
     }
