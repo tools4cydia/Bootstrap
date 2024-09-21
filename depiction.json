@@ -71,14 +71,15 @@
           "title": "ABOUT ME"
         },
         {
-          "class": "DepictionSeparatorView"
+          "class": "DepictionTableButtonView"
         },
         {
-          "class": "DepictionStackView",
+          "class": "DepictionSeparatorView",
           "views": [
             {
-              "class": "DepictionMarkdownView",
-              "markdown": "[Follow on Twitter](https://twitter.com/tools4cydia)",
+              "text":"最近1个月内更新的软件包",
+              "class": "DepictionButtonView",
+              "action": "[Follow on Twitter](https://twitter.com/tools4cydia)",
               "useSpacing": true
             },
             {
