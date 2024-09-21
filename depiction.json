@@ -83,8 +83,9 @@
               "useSpacing": true
             },
             {
-              "class": "DepictionMarkdownView",
-              "markdown": "[Visit Website](https://tools4cydia.co/)",
+              "text":"1包",
+              "class": "DepictionButtonView",
+              "action": "https://tools4cydia.co/",
               "useSpacing": true
             },
             {
