@@ -74,25 +74,36 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionButtonView",
-          "action": "https://twitter.com/tools4cydia",
-          "title": "Follow on Twitter",
-          "openExternal": true,
-          "tintColor": "#1DA1F2"
-        },
-        {
-          "class": "DepictionButtonView",
-          "action": "https://tools4cydia.co/",
-          "title": "Visit Website",
-          "openExternal": true,
-          "tintColor": "#4CAF50"
-        },
-        {
-          "class": "DepictionButtonView",
-          "action": "https://www.paypal.me/Tools4ipa",
-          "title": "Donate via PayPal",
-          "openExternal": true,
-          "tintColor": "#003087"
+          "class": "DepictionStackView",
+          "views": [
+            {
+              "class": "DepictionButtonView",
+              "action": "https://twitter.com/tools4cydia",
+              "title": "Follow on Twitter",
+              "openExternal": true,
+              "tintColor": "#1DA1F2",
+              "cornerRadius": 10,
+              "backgroundColor": "#E1F5FE"
+            },
+            {
+              "class": "DepictionButtonView",
+              "action": "https://tools4cydia.co/",
+              "title": "Visit Website",
+              "openExternal": true,
+              "tintColor": "#4CAF50",
+              "cornerRadius": 10,
+              "backgroundColor": "#E8F5E9"
+            },
+            {
+              "class": "DepictionButtonView",
+              "action": "https://www.paypal.me/Tools4ipa",
+              "title": "Donate via PayPal",
+              "openExternal": true,
+              "tintColor": "#003087",
+              "cornerRadius": 10,
+              "backgroundColor": "#E3F2FD"
+            }
+          ]
         }
       ]
     }
