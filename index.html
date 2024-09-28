@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comment Form</title>
+    <title>Comment System</title>
     <style>
-        /* إضافة بعض التنسيق البسيط */
         label {
             display: block;
             margin-top: 10px;
@@ -19,10 +18,16 @@
             margin-top: 15px;
             padding: 10px 15px;
         }
+        .comment-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
     <div id="form-container"></div>
+    <div id="comments-container"></div>
 
     <script>
         // نموذج البيانات في JSON
@@ -80,8 +85,47 @@
             submitButton.textContent = formData.form.submit_button.text;
             form.appendChild(submitButton);
 
+            // إضافة الحدث عند إرسال الفورم
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); // منع إعادة تحميل الصفحة عند الإرسال
+                handleSubmit();
+            });
+
             // إضافة النموذج إلى الـ div الرئيسي
             formContainer.appendChild(form);
+        }
+
+        // دالة لمعالجة إرسال التعليق
+        function handleSubmit() {
+            // جلب القيم من الحقول
+            const username = document.querySelector('input[name="username"]').value;
+            const comment = document.querySelector('textarea[name="comment"]').value;
+
+            // التحقق من أن الحقول ليست فارغة
+            if (username && comment) {
+                addComment(username, comment);
+            } else {
+                alert('Please fill out both fields.');
+            }
+        }
+
+        // دالة لإضافة التعليق إلى القائمة
+        function addComment(username, comment) {
+            const commentsContainer = document.getElementById('comments-container');
+
+            // إنشاء عنصر جديد للتعليق
+            const commentBox = document.createElement('div');
+            commentBox.classList.add('comment-box');
+
+            // إضافة النص للتعليق
+            commentBox.innerHTML = `<strong>${username}:</strong> <p>${comment}</p>`;
+
+            // إضافة التعليق إلى الـ div المخصص للتعليقات
+            commentsContainer.appendChild(commentBox);
+
+            // تفريغ الحقول بعد الإرسال
+            document.querySelector('input[name="username"]').value = '';
+            document.querySelector('textarea[name="comment"]').value = '';
         }
 
         // استدعاء الدالة لإنشاء الفورم
