@@ -1,127 +1,91 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		
-		<meta charset="utf-8" />
-		<link href='images/Neutronfile.png' rel='icon' type='image/x-icon'/>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Form</title>
+    <style>
+        /* إضافة بعض التنسيق البسيط */
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="form-container"></div>
 
+    <script>
+        // نموذج البيانات في JSON
+        const formData = {
+            "form": {
+                "fields": [
+                    {
+                        "field_name": "username",
+                        "label": "Username",
+                        "type": "text",
+                        "placeholder": "Enter your username"
+                    },
+                    {
+                        "field_name": "comment",
+                        "label": "Comment",
+                        "type": "textarea",
+                        "placeholder": "Enter your comment"
+                    }
+                ],
+                "submit_button": {
+                    "text": "Submit"
+                }
+            }
+        };
 
-	</head>
-	<body>
-    <div class="container-lg px-3 my-5 markdown-body">
+        // بناء النموذج بناءً على بيانات JSON
+        function createForm(formData) {
+            const formContainer = document.getElementById('form-container');
+            const form = document.createElement('form'); // إنشاء عنصر الفورم
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+            // بناء الحقول بناءً على JSON
+            formData.form.fields.forEach(field => {
+                const label = document.createElement('label');
+                label.textContent = field.label; // النص الذي يظهر للمستخدم
+                form.appendChild(label);
 
-				<!-- Header -->
-				<header id="header" class="alt">
-				<h1>Tools4cydia,s Repo</h1>
-						</header>
+                let input;
+                if (field.type === 'textarea') {
+                    input = document.createElement('textarea'); // إنشاء حقل textarea
+                } else {
+                    input = document.createElement('input'); // إنشاء حقل input
+                    input.type = field.type;
+                }
 
-				<!-- Main -->
-					<div id="main">
+                input.placeholder = field.placeholder; // إضافة النص الإرشادي
+                input.name = field.field_name; // إضافة الاسم للحقل
+                form.appendChild(input);
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+                form.appendChild(document.createElement('br')); // إضافة سطر جديد بين الحقول
+            });
 
-<input type="text" value="https://tools4cydia.github.io/Bootstrap/" id="myInput">
-						<h1></h1>
-<button onclick="myFunction()">Copy Repo</button>
+            // زر الإرسال
+            const submitButton = document.createElement('button');
+            submitButton.type = 'submit'; // تحديد نوع الزر كإرسال
+            submitButton.textContent = formData.form.submit_button.text;
+            form.appendChild(submitButton);
 
-<script>
-function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("myInput");
+            // إضافة النموذج إلى الـ div الرئيسي
+            formContainer.appendChild(form);
+        }
 
-  // Select the text field
-  copyText.select(0,99);
-  copyText.setSelectionRange(0, 99999); // For mobile devices
-
-  // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
-  
-  // Alert the copied text
-  alert("تم نسخ سورس Copied the Repo: " + copyText.value);
-}
-</script>
-						
-										</header>
-										
-										<ul class="actions">
-											<li><div class="sileo"> <a href="sileo://source/add/https://tools4cydia.github.io/Bootstrap/"><button class="sileobtn">SILEO</button> </a></div></li>
-
-<li><div class="zebra"><a href="zbra://sources/add/https://tools4cydia.github.io/Bootstrap/"><button class="zebrabtn">ZEBRA</button> </a></div></li>
-										</ul>
-									</div>
-									
-							</section>
-
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-									
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon major style1 fa-apple"></span>
-										<h3>-<b>Tweaks</b>-</h3>
-										
-									</li>
-									<li>
-										<span class="icon major style3 fa-paint-brush"></span>
-										<h3>-<b>Themes</b>-</h3>
-				
-									</li>
-									<li>
-										<span class="icon major style5 fa-gamepad"></span>
-										<h3>-<b>Game</b>-</h3>
-										
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions">
-<li><a href="https://twitter.com/tools4cydia" class="button"><i class="fa fa-twitter">&nbsp; X @Tools4cydia</i></a></li>
-									</ul>
-								</footer>
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<ul class="icons">
-								<center><li><a href="https://twitter.com/tools4cydia" class="icon tw-twitter alt"><span class="label">github</span></a></li></center>
-							</ul>
-						</section>
-
-<div><center><h2><b></b></h2>
-<p>new repo: @<a href="https://twitter.com/tools4cydia"><b><em>Tools4cydia</em></b></a>. Thank you!</p></center>
-</div>
-
-<hr>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        // استدعاء الدالة لإنشاء الفورم
+        createForm(formData);
+    </script>
+</body>
 </html>
