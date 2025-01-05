@@ -10,11 +10,9 @@ SHA256: 6869ad71175ddd9efe09f83e5d4b2354c89cf6d227b6c2abc76ac21ed935187b
 Section: Hack
 Description: أداة حاليا تحت التطوير ما يفتح كل ميزات داخل تطبيقات كل اصدار اضيف فيه اكواد اكثر حتى يكتمل على اغلب تطبيقات والعاب !
 Author: Tools4cydia
-SileoDepiction: https://tools4cydia.co/repo/depiction.json
+sileodepiction: https://tools4cydia.co/repo/depiction.json
 Depiction: tools4cydia
-Name: Tools4cydia
-
-
+Name: Tools4cydia (roothide)
 
 
 Package: com.tools4cydia.tools4terminal
@@ -32,6 +30,8 @@ Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author: Tools4cydia
 Depiction: tools4cydia
 Name: t4c enter (Roothide)
+
+
 
 
 
@@ -432,6 +432,8 @@ Author:  CreatureSurvive
 Depiction: tools4cydia
 Name: libCSPreferences
 
+
+
 Package: com.ichitaso.hideserialnumber
 Version: 0.0.3
 Architecture: iphoneos-arm64e
@@ -446,3 +448,4 @@ Description: Hide Serial Number in Settings About page. اخفاء رقم الت
 Author:  ichitaso
 Depiction: tools4cydia
 Name: HideSerialNumber
+
