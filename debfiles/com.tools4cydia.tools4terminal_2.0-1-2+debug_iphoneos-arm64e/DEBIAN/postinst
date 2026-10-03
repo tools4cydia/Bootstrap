@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# تحديد ملف إعدادات الـ shell (يمكن تغييره بناءً على نظامك)
+SHELL_CONFIG="/var/mobile/.zshrc"
+IPA_SCRIPT_PATH="/var/mobile/ToolsTerminalx/DEBIAN/ipax"  # مسار سكربت ipax
+DEB_PACKAGE_SCRIPT_PATH="/var/mobile/ToolsTerminalx/DEBIAN/deb_package"  # المسار الكامل للسكربت deb_package.sh
+TARGET_PATH="/usr/local/bin/deb_package"  # المسار الذي سيتم نسخ السكربت إليه
+
+# التأكد من وجود ملف إعدادات الـ shell (إذا لم يكن موجودًا، يتم إنشاؤه)
+if [ ! -f "$SHELL_CONFIG" ]; then
+    echo "Creating $SHELL_CONFIG..."
+    touch "$SHELL_CONFIG"
+fi
+
+# إضافة اختصار m إذا لم يكن موجوداً
+if ! grep -q "alias mp='make package'" "$SHELL_CONFIG"; then
+    echo "alias mp='make package'" >> "$SHELL_CONFIG"
+    echo "Added alias mp='make package' to $SHELL_CONFIG"
+fi
+
+if ! grep -q "alias nic='theos/bin/nic.pl'" "$SHELL_CONFIG"; then
+    echo "alias nic='theos/bin/nic.pl'" >> "$SHELL_CONFIG"
+    echo "Added alias nic='theos/bin/nic.pl' to $SHELL_CONFIG"
+fi
+
+
+
+# إضافة اختصار c إذا لم يكن موجوداً
+if ! grep -q "alias mc='make clean'" "$SHELL_CONFIG"; then
+    echo "alias mc='make clean'" >> "$SHELL_CONFIG"
+    echo "Added alias mc='make clean' to $SHELL_CONFIG"
+fi
+
+# إضافة اختصار mc إذا لم يكن موجوداً
+if ! grep -q "alias cc='rm -rf /var/mobile/.cache/clang/ModuleCache/*'" "$SHELL_CONFIG"; then
+    echo "alias cc='rm -rf /var/mobile/.cache/clang/ModuleCache/*'" >> "$SHELL_CONFIG"
+    echo "Added alias cc='rm -rf /var/mobile/.cache/clang/ModuleCache/*' to $SHELL_CONFIG"
+fi
+
+
+
+if ! grep -q "alias ccc='rm -rf /private/var/mobile/Library/Caches/*'" "$SHELL_CONFIG"; then
+    echo "alias ccc='rm -rf /private/var/mobile/Library/Caches/*'" >> "$SHELL_CONFIG"
+    echo "Added alias ccc='rm -rf /private/var/mobile/Library/Caches/*' to $SHELL_CONFIG"
+fi
+
+# إضافة اختصار re إذا لم يكن موجوداً
+if ! grep -q "alias re='sbreload'" "$SHELL_CONFIG"; then
+    echo "alias re='sbreload'" >> "$SHELL_CONFIG"
+    echo "Added alias re='sbreload' to $SHELL_CONFIG"
+fi
+
+# إضافة اختصار ipax ليشير إلى ipa
+if ! grep -q "alias ipa='ipax'" "$SHELL_CONFIG"; then
+    echo "alias ipa='ipax'" >> "$SHELL_CONFIG"
+    echo "Added alias ipa='ipax' to $SHELL_CONFIG"
+fi
+
+# إضافة اختصار deb لتشغيل السكربت deb_package.sh إذا لم يكن موجوداً
+if ! grep -q "alias deb='$TARGET_PATH'" "$SHELL_CONFIG"; then
+    echo "alias deb='$TARGET_PATH'" >> "$SHELL_CONFIG"
+    echo "Added alias deb='$TARGET_PATH' to $SHELL_CONFIG"
+fi
+
+# نسخ الملف deb_package.sh إلى المسار المطلوب
+if [ -f "$DEB_PACKAGE_SCRIPT_PATH" ]; then
+    cp "$DEB_PACKAGE_SCRIPT_PATH" "$TARGET_PATH"
+    chmod +x "$TARGET_PATH"  # إعطاء صلاحيات التنفيذ للسكربت
+    echo "Copied $DEB_PACKAGE_SCRIPT_PATH to $TARGET_PATH and made it executable."
+else
+    echo "Error: $DEB_PACKAGE_SCRIPT_PATH not found. Skipping file copy."
+fi
+
+# إعادة تحميل إعدادات الـ shell لضمان تطبيق الاختصارات
+if [ -f "$SHELL_CONFIG" ]; then
+    source "$SHELL_CONFIG"
+    echo "Sourced $SHELL_CONFIG to apply changes."
+fi
+
+# تأكيد النجاح
+echo "All aliases and necessary files added successfully."

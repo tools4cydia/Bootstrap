@@ -1,0 +1,10 @@
+Package: com.tools4cydia.tools4terminal
+Name: t4c enter (Roothide)
+Description: ‏‏Short commands : (re)Respring (nic)theos/bin/nic.pl    (cc)mobile clean ModuleCache (ccc)clean Caches (mc)make clean (mp)make package (ipa)TrollStore ipa (deb)install deb
+Maintainer: Tools4cydia
+Author: Tools4cydia
+Section: Utilities
+Depends: bash, zsh, curl, jq, wget
+Architecture: iphoneos-arm64e
+Version: 2.0-1-2+debug
+Installed-Size: 132

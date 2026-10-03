@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# تحديد ملف إعدادات الـ shell (يمكن تغييره بناءً على نظامك)
+SHELL_CONFIG="/var/mobile/.zshrc"
+IPA_PATH="/usr/local/bin/ipax"
+SCRIPT_PATH="/usr/local/bin/deb_package"  # المسار الكامل للسكربت deb_package.sh
+
+# التحقق من وجود ملف إعدادات الـ shell
+if [ -f "$SHELL_CONFIG" ]; then
+    # إزالة اختصار m إذا كان موجوداً
+    if grep -q "alias mp='make package'" "$SHELL_CONFIG"; then
+        sed -i "\|alias mp='make package'|d" "$SHELL_CONFIG"
+        echo "Removed alias mp='make package' from $SHELL_CONFIG"
+    fi
+
+    # إزالة اختصار c إذا كان موجوداً
+    if grep -q "alias mc='make clean'" "$SHELL_CONFIG"; then
+        sed -i "\|alias mc='make clean'|d" "$SHELL_CONFIG"
+        echo "Removed alias mc='make clean' from $SHELL_CONFIG"
+    fi
+
+
+if grep -q "alias nic='theos/bin/nic.pl'" "$SHELL_CONFIG"; then
+        sed -i "\|alias nic='theos/bin/nic.pl'|d" "$SHELL_CONFIG"
+        echo "Removed alias nic='theos/bin/nic.pl' from $SHELL_CONFIG"
+    fi
+
+
+
+    # إزالة اختصار mc إذا كان موجوداً
+    if grep -q "alias cc='rm -rf /var/mobile/.cache/clang/ModuleCache/*'" "$SHELL_CONFIG"; then
+        sed -i "\|alias cc='rm -rf /var/mobile/.cache/clang/ModuleCache/*'|d" "$SHELL_CONFIG"
+        echo "Removed alias cc='rm -rf /var/mobile/.cache/clang/ModuleCache/*' from $SHELL_CONFIG"
+    fi
+
+
+if grep -q "alias ccc='rm -rf /private/var/mobile/Library/Caches/*'" "$SHELL_CONFIG"; then
+        sed -i "\|alias ccc='rm -rf /private/var/mobile/Library/Caches/*'|d" "$SHELL_CONFIG"
+        echo "Removed alias ccc='rm -rf /private/var/mobile/Library/Caches/*' from $SHELL_CONFIG"
+    fi
+
+    # إزالة اختصار re إذا كان موجوداً
+    if grep -q "alias re='sbreload'" "$SHELL_CONFIG"; then
+        sed -i "\|alias re='sbreload'|d" "$SHELL_CONFIG"
+        echo "Removed alias re='sbreload' from $SHELL_CONFIG"
+    fi
+
+    # إزالة اختصار ipax إذا كان موجوداً
+    if grep -q "alias ipa='ipax'" "$SHELL_CONFIG"; then
+        sed -i "\|alias ipa='ipax'|d" "$SHELL_CONFIG"
+        echo "Removed alias ipa='ipax' from $SHELL_CONFIG"
+    fi
+
+    # إزالة اختصار deb إذا كان موجوداً
+    if grep -q "alias deb='$SCRIPT_PATH'" "$SHELL_CONFIG"; then
+        sed -i "\|alias deb='$SCRIPT_PATH'|d" "$SHELL_CONFIG"
+        echo "Removed alias deb='$SCRIPT_PATH' from $SHELL_CONFIG"
+    fi
+
+    # التحقق من تعارضات في alias ipa
+    if grep -q "alias ipa" "$SHELL_CONFIG"; then
+        echo "Warning: There is an alias for ipa that may be conflicting with deb."
+    fi
+
+    # إعادة تحميل إعدادات الـ shell لضمان تطبيق التغييرات
+    source "$SHELL_CONFIG"
+    echo "Sourced $SHELL_CONFIG to apply changes."
+else
+    echo "$SHELL_CONFIG not found, nothing to remove."
+fi
+
+# التحقق من وجود ملف السكربت وحذفه
+if [ -f "$SCRIPT_PATH" ]; then
+    rm "$SCRIPT_PATH"
+    echo "Removed $SCRIPT_PATH"
+else
+    echo "$SCRIPT_PATH not found, nothing to remove."
+fi
+
+# تأكيد النجاح
+echo "All necessary changes applied successfully."
