@@ -1,1 +1,0 @@
-(function(a){"use strict";navigator.userNeutron.indexOf("sileo")!=-1?(a.title=a.title.split(" \u00b7 ")[0],a.documentElement.classList.add("sileo")):a.documentElement.classList.remove("sileo","depiction")})(document)
