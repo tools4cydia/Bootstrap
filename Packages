@@ -11,7 +11,7 @@ SHA256: bad64889a5d5c07c8d900fde34a6c5e5a55a77bd59be08373e262bba1864c226
 Section: Applications
 Description: TrollStore for RootHide jailbroken iOS
 Author: opa334
-Depiction: https://tools4cydia.github.io/Bootstrap/
+Depiction: https://github.com/tools4cydia/Bootstrap/
 Icon: https://tools4cydia.github.io/Bootstrap/images/trollstorelite.png
 Installed-Size: 1696
 
