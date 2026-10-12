@@ -6,3 +6,12 @@ Architectures: iphoneos-arm64e iphoneos-arm iphoneos-arm64
 Components: main
 Description: Tools4cydia
 Icon: file://RepoIcon.png
+Date: Mon, 12 Oct 2026 21:33:43 UTC
+MD5Sum:
+ 9e0bee71a6578a2cf66d6738b446aa2e 15154 Packages
+ 4417ae14b9fda0e5e1f97de60d761411 5519 Packages.gz
+ 79f2366e09c50327e8c675c72a62ad85 5324 Packages.bz2
+SHA256:
+ 018bfdff401956ef175d9f0b50db727f0e41eaf3f383c864295a53fc61edda9d 15154 Packages
+ 03481e2fc7a30eadd339a62231784b4942d6adc0228c5500e97784e5bd383545 5519 Packages.gz
+ 618096f5cf8b03ba66f56424b14335ac22ad4322f623c9c7b46a26ca517624bc 5324 Packages.bz2
