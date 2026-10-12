@@ -1,3 +1,20 @@
+Package: com.opa334.trollstorelite
+Name: TrollStore Lite (RootHide)
+Version: 2.1.1-2
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate
+Filename: ./debfiles/com.opa334.trollstorelite_2.1.1-2_iphoneos-arm64e.deb
+Size: 1736426
+MD5sum: 85c80daf6106c7fa4d494bf3da0bc062
+SHA1: 1bfbc6dd28bc8a279ba81975f701af5cc6b86421
+SHA256: bad64889a5d5c07c8d900fde34a6c5e5a55a77bd59be08373e262bba1864c226
+Section: Applications
+Description: TrollStore for RootHide jailbroken iOS
+Author: opa334
+Depiction: https://tools4cydia.github.io/Bootstrap/
+Icon: https://t4c.info/images/trollstorelite.png
+Installed-Size: 1696
+
 Package: com.tools4cydia.tools4terminal
 Version: 2.0-1-2+debug
 Architecture: iphoneos-arm64e
@@ -13,10 +30,6 @@ Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author: Tools4cydia
 Depiction: tools4cydia
 Name: t4c enter (Roothide)
-
-
-
-
 
 Package: com.julioverne.goodwifi
 Version: 0.0~beta6
@@ -34,8 +47,6 @@ Author: Julio
 Depiction: tools4cydia
 Name: GoodWiFi
 
-
-
 Package: com.nahtedetihw.floatingdockxvi
 Version: 1.8
 Architecture: iphoneos-arm64e
@@ -52,8 +63,6 @@ Author: Ethan Whited
 Depiction: tools4cydia
 Name: FloatingDockXVI
 
-
-
 Package: com.dlgmemor.naboudaj
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -67,8 +76,6 @@ Description: Run DLGMemor on Bootstrap اظهار مود  اضغط ثلاث مر
 Author: DLGMemor
 Depiction: tools4cydia
 Name: DLGMemor
-
-
 
 Package: com.mrgcgamer.libgcuniversal
 Version: 1.6.4
@@ -86,8 +93,6 @@ Author: MrGcGamer
 Depiction: tools4cydia
 Name: LibGcUniversal
 
-
-
 Package: dev.traurige.eneko
 Version: 1.4
 Architecture: iphoneos-arm64e
@@ -102,10 +107,6 @@ Description: Live wallpapers for iOS عمل خلفية متحركة شاشة ق�
 Author: Traurige
 Depiction: tools4cydia
 Name: Eneko
-
-
-
-
 
 Package: com.ryannair05.cylinderremade
 Version: 0.0.2-beta
@@ -123,8 +124,6 @@ Author: Ryan Nair
 Depiction: tools4cydia
 Name: Cylinder Remade
 
-
-
 Package: xyz.cypwn.lynxtwo
 Version: 2.4.6
 Architecture: iphoneos-arm64e
@@ -141,8 +140,6 @@ Author: MTAC
 Depiction: tools4cydia
 Name: Lynx 2
 
-
-
 Package: xyz.cypwn.designer
 Version: 1.3
 Architecture: iphoneos-arm64e
@@ -157,7 +154,6 @@ Description: Design layouts for lockscreen and homescreen
 Author: Designer
 Depiction: tools4cydia
 Name: Designer
-
 
 Package: xyz.cypwn.carbridge13
 Version: 2.0.12
@@ -176,9 +172,6 @@ Author: leftyfl1p
 Depiction: tools4cydia
 Name: CarBridge
 
-
-
-
 Package: com.ryannair05.cask3
 Version: 1.0.2
 Architecture: iphoneos-arm64e
@@ -194,7 +187,6 @@ Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Author: Ryan Nair
 Depiction: tools4cydia
 Name: Cask 3
-
 
 Package: xyz.cypwn.teleport
 Version: 1.1
@@ -212,7 +204,6 @@ Icon: https://repo.cypwn.xyz/packages/Teleport/icon.png
 Depiction: tools4cydia
 Name: Teleport maps
 
-
 Package: com.muirey03.libimagepicker
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -228,7 +219,6 @@ Icon: https://repo.cypwn.xyz/packages/libhookersupport/icon.png
 Author:  Muirey03
 Depiction: tools4cydia
 Name: libimagepicker
-
 
 Package: xyz.cypwn.akara
 Version: 2.0.0k
@@ -246,8 +236,6 @@ Author:  Tr1Fecta & Kennyroo
 Depiction: tools4cydia
 Name: Akara
 
-
-
 Package: com.niceios.nicehelper-bootstrap
 Version: 1.2-1
 Architecture: iphoneos-arm64e
@@ -264,7 +252,6 @@ Author:  niceios
 Depiction: tools4cydia
 Name: NiceHelper【Bootstrap】
 
-
 Package: com.niceios.nicebarx16-bootstrap
 Version: 1.0.0.1-14
 Architecture: iphoneos-arm64e
@@ -280,9 +267,6 @@ Author:  niceios
 Icon: https://tools4cydia.github.io/Bootstrap/icon/IMG_3334.png
 Depiction: tools4cydia
 Name: NiceBarX(iOS16)-bootstrap
-
-
-
 
 Package: me.lau.atria
 Version: 1.4.1
@@ -330,7 +314,6 @@ Author: tools4cydia
 Depiction: tools4cydia
 Name: Tools4Theos
 
-
 Package: com.spark.snowboard
 Version: 1.5.26-Beta4
 Architecture: iphoneos-arm64e
@@ -363,7 +346,6 @@ Author: MTAC
 Depiction: tools4cydia
 Name: SnowBoardFix
 
-
 Package: com.rpgfarm.a-font
 Version: 1.9.3
 Architecture: iphoneos-arm64e
@@ -380,7 +362,6 @@ Author:  Baw Appie
 Depiction: tools4cydia
 Name: A-Font
 
-
 Package: com.creaturecoding.shuffle
 Version: 1.6.2
 Architecture: iphoneos-arm64e
@@ -396,7 +377,6 @@ Description: Organize your settings you have to download libCSPreferences
 Author:  CreatureSurvive
 Depiction: tools4cydia
 Name: Shuffle
-
 
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
@@ -415,8 +395,6 @@ Author:  CreatureSurvive
 Depiction: tools4cydia
 Name: libCSPreferences
 
-
-
 Package: com.ichitaso.hideserialnumber
 Version: 0.0.3
 Architecture: iphoneos-arm64e
@@ -431,4 +409,3 @@ Description: Hide Serial Number in Settings About page. اخفاء رقم الت
 Author:  ichitaso
 Depiction: tools4cydia
 Name: HideSerialNumber
-
