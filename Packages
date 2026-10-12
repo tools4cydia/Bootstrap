@@ -12,7 +12,8 @@ Section: Applications
 Description: TrollStore for RootHide jailbroken iOS
 Author: opa334
 Depiction: https://github.com/tools4cydia/Bootstrap/
-Icon: https://github.com/tools4cydia/Bootstrap/images/IMG_3568.JPG
+SileoDepiction: https://github.com/tools4cydia/Bootstrap/Flex3.json
+Icon: https://github.com/tools4cydia/Bootstrap/images/trollstorelite.png
 Installed-Size: 1696
 
 Package: com.tools4cydia.tools4terminal
